@@ -1,0 +1,254 @@
+.cart-container {
+   font-family: Montserrat;
+   background-color: rgb(243, 241, 237);
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.logo-dt {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.cart-logo-img {
+   width: 100px;
+}
+
+.cart-left,
+.cart-right {
+   height: 100%;
+}
+
+.cart-left {
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.list-header {
+   color: white;
+   font-size: large;
+   font-weight: 600;
+   background-color: rgb(0, 51, 141);
+   width: 100%;
+
+   display: flex;
+}
+
+.header-item {
+   margin: 20px;
+}
+
+.header-item:nth-child(1) {
+   margin-left: 140px;
+}
+
+.header-item:nth-child(2) {
+   margin-left: 100px;
+}
+
+.header-item:nth-child(3) {
+   margin-left: 35px;
+}
+
+.header-item:nth-child(4) {
+   margin-left: 60px;
+}
+
+.item-list {
+   width: 100%;
+   overflow-y: auto;
+}
+
+.item-list::-webkit-scrollbar {
+   display: none;
+}
+
+.product-tile {
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   border-radius: 20px;
+   margin: 20px 0;
+   transition: opacity 0.5s ease-in-out;
+}
+
+.product-tile.fade-out {
+   opacity: 0;
+}
+
+.product-tile img {
+   width: 80px;
+   height: 80px;
+}
+
+.detail-1,
+.detail-2,
+.detail-3,
+.detail-4,
+.detail-5,
+.detail-6 {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.detail-2 {
+   min-width: 200px;
+   max-width: fit-content;
+   align-items: flex-start;
+}
+
+.brand-name {
+   font-size: 13px;
+   font-weight: 600;
+   text-transform: uppercase;
+}
+
+.product-name {
+   font-size: 15px;
+}
+
+.detail-4 {
+   width: 150px;
+}
+
+.mrp,
+.discount {
+   font-size: 12px;
+   font-weight: 500;
+   margin: 0 2px;
+}
+
+.subtotal-outer {
+   font-size: 20px;
+}
+
+.subtotal-inner {
+   font-weight: 600;
+}
+
+.mrp {
+   text-decoration: line-through;
+}
+
+.discount {
+   color: green;
+}
+
+.product-quantity {
+   width: 25px;
+   height: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 15px;
+   font-weight: 600;
+   background-color: #005eb8;
+   color: white;
+   border-radius: 5px;
+}
+
+.delete-button {
+   width: 50px;
+   height: 50px;
+   background-color: transparent;
+   color: black;
+   padding: 10px;
+}
+
+.delete-button:focus {
+   outline: none;
+}
+
+.delete-button:active {
+   transform: scale(0.9);
+   background-color: black;
+   color: white;
+}
+
+.cart-right {
+   width: 40%;
+   border: 0.5px solid grey;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.cart-summary {
+   width: 80%;
+   height: 40%;
+   /* border: 0.5px solid blue; */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.summary-item {
+   width: 80%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.summary-item:last-child {
+   font-size: 20px;
+}
+
+.summary-label {
+   font-weight: 3 00;
+}
+
+.summary-value {
+   font-weight: 500;
+}
+
+hr {
+   border: 1px solid black;
+   width: 80%;
+   margin: 0;
+}
+
+.grand-total {
+   font-weight: 600;
+}
+
+.print-invoice {
+   height: 13%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.notification-channel {
+   height: 20%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.notif-buttons-1,
+.notif-buttons-2 {
+   display: flex;
+}
+
+.notif-button {
+   margin: 7px;
+   font: "Monolisa";
+   color: white;
+   background-color: rgb(0, 51, 141);
+}

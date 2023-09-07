@@ -1,0 +1,16 @@
+body,
+html {
+   /* overflow: hidden; */
+}
+
+.screen {
+   width: 100vw;
+   height: 100vh;
+   background-color: rgb(243, 241, 237);
+   color: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   border-radius: 20px;
+}
